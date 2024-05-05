@@ -37,3 +37,25 @@
 #Happening {
     margin-left: 20px;
 }
+
+@media (max-width: 768px) {
+    .News {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .New {
+        margin-bottom: 20px;
+        width: 90%;
+    }
+
+    .New img {
+        width: 100%;
+        height: auto;
+    }
+
+    .New h3 {
+        text-align: center;
+    }
+}
