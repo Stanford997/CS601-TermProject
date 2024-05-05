@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subway Information</title>
+    <link rel="stylesheet" href="css/greenb_line.css">
+    <link rel="stylesheet" href="css/base_style.css">
+</head>
+<body>
+<header>
+    <h1>Boston Transportation</h1>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li class="dropdown">
+                <a href="">Route</a>
+                <div class="dropdown-content">
+                    <a href="subway_lines.html">Subway Lines</a>
+                    <a href="subway_lines.html">Bus Routes</a>
+                    <a href="subway_lines.html">Commuter Rail</a>
+                    <a href="subway_lines.html">Ferry Routes</a>
+                    <a href="subway_lines.html">The RIDE</a>
+                </div>
+            </li>
+            <li><a href="fares.html">Fares</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+    <div id='green_b_sections'>
+        <div class="two_sections">
+            <div class="left_section">
+
+                <div class="station-list">
+                    <div class="station">
+                        <h3 class="station-name">Government Center</h3>
+                        <h3 class="station-name">Park Street</h3>
+                        <h3 class="station-name">Boylston</h3>
+                        <h3 class="station-name">Arlington</h3>
+                        <h3 class="station-name">Copley</h3>
+                        <h3 class="station-name">Hynes Convention Center</h3>
+                        <h3 class="station-name">Kenmore</h3>
+                        <h3 class="station-name">Blandford Street</h3>
+                        <h3 class="station-name">Boston University East</h3>
+                        <h3 class="station-name">Boston University Central</h3>
+                        <h3 class="station-name">Amory Street</h3>
+                        <h3 class="station-name">Babcock Street</h3>
+                        <h3 class="station-name">Packard's Corner</h3>
+                        <h3 class="station-name">Harvard Avenue</h3>
+                        <h3 class="station-name">Griggs Street</h3>
+                        <h3 class="station-name">Allston Street</h3>
+                        <h3 class="station-name">Warren Street</h3>
+                        <h3 class="station-name">Washington Street</h3>
+                        <h3 class="station-name">Sutherland Road</h3>
+                        <h3 class="station-name">Chiswick Road</h3>
+                        <h3 class="station-name">Chestnut Hill Avenue</h3>
+                        <h3 class="station-name">South Street</h3>
+                        <h3 class="station-name">Boston College</h3>
+                    </div>
+                </div>
+
+                <section class="maps" id="mapsSection">
+                    <h2>Maps</h2>
+                    <img src="img/gb.png" alt="Subway Map" id="subwayMap" style="display: block;">
+                    <iframe src="" id="googleMap"
+                            style="display: none; position: absolute; top: 0; left: 0; width: 100%; height: 100%;"
+                            allowfullscreen loading="lazy"></iframe>
+                    <button id="switchButton" class="switch-button">Switch Back</button>
+                </section>
+            </div>
+
+            <div class="right_section">
+                <div id="right_service">
+                    <h2 id="rs_title">Today's Service</h2>
+                    <div>First & last trains</div>
+                    <h3>5:01 AM | 12:16 AM</h3>
+                    <div>Peak Service: Trains depart every 6 – 8 minutes</div>
+                    <div>Off-Peak Service: Trains depart every 7 – 12 minutes</div>
+                </div>
+
+                <div class="News">
+                    <div class="New">
+                        <img src="img/green-line-b-station-consolidation.jpeg" alt="South Coast Rail">
+                        <h3>Green Line B Branch Station Consolidation</h3>
+                        <div>
+                            We consolidated four B Branch stops into two fully accessible, brand-new stations—Babcock
+                            Street and Amory Street.
+                        </div>
+                    </div>
+                </div>
+
+                <section class="news">
+                    <h2>News</h2>
+                    <div class="news-item">
+                        <span class="news-marker red"></span>
+                        <div class="news-content">
+                            <p class="news-date">APRIL 26, 2024</p>
+                            <a href="https://www.mbta.com/news/2024-04-26/update-shuttle-buses-will-now-replace-red-line-park-street-jfkumass-may-2-10?utm_term=subway&utm_campaign=curated-content&utm_content=UPDATE%3A+Shuttle+Buses+Will+Now+Replace+Red+Line+from+Park+Street+to+JFK%2FUMass+on+May+2-10%2C+Evening+Shuttle+Buses+Will+Now+Replace+Red+Line+from+Park+Street+to+Ashmont+on+May+2-9&utm_medium=news&utm_source=schedule">UPDATE:
+                                Shuttle Buses Will Now Replace Red Line from Park Street to JFK/UMass on May 2-10,
+                                Evening Shuttle Buses Will Now Replace Red Line from Park Street to Ashmont on May
+                                2-9</a>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-marker purple"></span>
+                        <div class="news-content">
+                            <p class="news-date">APRIL 25, 2024</p>
+                            <a href="https://www.mbta.com/news/2024-04-25/mbta-implements-commuter-rail-subway-bus-and-ferry-service-improvements-spring?utm_term=subway&utm_campaign=curated-content&utm_content=MBTA+Implements+Commuter+Rail%2C+Subway%2C+Bus%2C+and+Ferry+Service+Improvements+This+Spring&utm_medium=news&utm_source=schedule">MBTA
+                                Implements Commuter Rail, Subway, Bus, and Ferry Service Improvements This Spring</a>
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <span class="news-marker blue"></span>
+                        <div class="news-content">
+                            <p class="news-date">APRIL 25, 2024</p>
+                            <a href="https://www.mbta.com/news/2024-04-25/mbta-extends-blue-line-track-work-through-april-30?utm_term=subway&utm_campaign=curated-content&utm_content=MBTA+Extends+Blue+Line+Track+Work+Through+April+30&utm_medium=news&utm_source=schedule">MBTA
+                                Extends Blue Line Track Work Through April 30</a>
+                        </div>
+                    </div>
+                </section>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+</body>
+<script src="js/green_b_line.js"></script>
+
+
+</html>

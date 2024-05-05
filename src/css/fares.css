@@ -1,0 +1,32 @@
+.dropdown-content > a + a {
+    background-color: green;
+}
+main > h2 + p {
+    font-size: 1.2em;
+}
+main > p + p {
+    color: blue;
+}
+main > p + span {
+    color: green;
+}
+section > div > p:first-of-type + p {
+    font-size: 1.2em;
+}
+section > div > p + span {
+    background-color: yellow;
+}
+section > div > p {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+section > h3 {
+    font-size: 18px;
+    color: #555;
+    margin-top: 20px;
+}
+section > h3 + p {
+    font-size: 14px;
+    color: #777;
+}

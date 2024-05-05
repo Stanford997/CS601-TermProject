@@ -1,0 +1,344 @@
+.tab-container {
+    margin: 20px;
+}
+
+.tabs {
+    overflow: hidden;
+    background: #003366;
+    border-radius: 5px;
+}
+
+.tab-button {
+    background: none;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: background-color 0.3s;
+    font-size: 17px;
+    color: white;
+}
+
+.tab-button:hover {
+    background-color: #005b99;
+}
+
+.tab-button.active {
+    background-color: #005b99;
+}
+
+.tab-content {
+    display: none;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-top: none;
+}
+
+.tab-content.active {
+    display: block;
+}
+
+.recently-visited h3 {
+    color: #333;
+    font-size: 1.5em;
+}
+
+.route-buttons {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.route-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    margin-right: 10px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.route-button.yellow {
+    background-color: #FFD700;
+}
+
+.route-button.green {
+    background-color: #008000;
+}
+
+/************************************ schedules ************************************************/
+/************************************ schedules ************************************************/
+/************************************ schedules ************************************************/
+#schedules {
+    background-color: #f0f0f0;
+    padding: 20px;
+}
+
+.recently-visited {
+    background-color: #ffffff;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #ccc;
+}
+
+.transportation-types {
+    background-color: #ffffff;
+    padding: 20px;
+}
+
+.transportation-type {
+    display: inline-block;
+    background-color: #ffffff;
+    padding: 10px 20px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.transportation-type:hover {
+    background-color: #cfe0f3;
+}
+
+.transportation-type span {
+    display: block;
+    text-align: center;
+}
+
+a.transportation-type {
+    color: inherit;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f5f5f5;
+}
+
+.route-button {
+    background-color: transparent;
+    border: 2px solid #cccccc;
+    border-radius: 20px;
+    padding: 5px 15px;
+    color: inherit;
+    cursor: pointer;
+}
+
+.route-button.yellow {
+    border-color: #ffd700;
+}
+
+.route-button.green {
+    border-color: #008000;
+}
+
+.notranslate svg {
+    width: 30%;
+    height: 30%;
+    fill: currentColor;
+}
+
+/************************************ trip-planner ************************************************/
+/************************************ trip-planner ************************************************/
+/************************************ trip-planner ************************************************/
+.trip-planner {
+    margin: 20px;
+    background: #f1f1f1;
+    padding: 15px;
+    border-radius: 4px;
+}
+
+.input-group {
+    margin-bottom: 10px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+}
+
+.input-group input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+}
+
+.suggestions {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-top: none;
+    z-index: 1000;
+    width: calc(100% - 2px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+
+.suggestions div {
+    padding: 8px;
+    cursor: pointer;
+}
+
+.suggestions div:hover {
+    background-color: #f0f0f0;
+}
+
+
+.btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: white;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.route {
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.route-prefix {
+    font-size: 1.2em;
+    color: #333;
+    padding: 8px;
+    background-color: #e8e8e8;
+    border-top: 1px solid #ccc;
+}
+
+.stops {
+    position: relative;
+    padding-left: 30px;
+}
+
+.stops::before {
+    content: '';
+    position: absolute;
+    left: 10px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #FFD700;
+    z-index: 0;
+}
+
+.bus-line::before {
+    background-color: #FFD700;
+}
+
+.red-line::before {
+    background-color: #FF0000;
+}
+
+.green-b-line::before {
+    background-color: #008000;
+}
+
+.stop-name {
+    display: block;
+    margin: 5px 0;
+    padding: 5px 10px;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+    width: auto;
+    position: relative;
+    z-index: 1;
+}
+
+.stop-name:hover {
+    background-color: #eef;
+}
+
+
+/************************************ alerts ************************************************/
+/************************************ alerts ************************************************/
+/************************************ alerts ************************************************/
+#alerts {
+    background-color: #f5f5f5;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.alerts-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.station-accessibility {
+    flex-basis: 80%;
+}
+
+.alert-categories {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.alert-category {
+    background-color: #ffffff;
+    border-radius: 5px;
+    margin: 10px 10px;
+    flex-basis: calc(40% - 20px);
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+
+.commuter-rail button {
+    background-color: #E0E0E0;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+
+.station-accessibility h3, .high-priority-alerts h3 {
+    margin-top: 1px;
+    color: #003366;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #003366;
+}
+
+.alert-category h4 {
+    margin-top: -1px;
+    padding-bottom: 10px;
+}
+
+.alert-category.subway h4 {
+    color: #494f5a;
+    border-bottom: 2px solid #494f5a;
+}
+
+.alert-category.local-bus h4 {
+    color: #fec84a;
+    border-bottom: 2px solid #fec84a;
+}
+
+.alert-category.commuter-rail h4 {
+    color: #7e2a6a;
+    border-bottom: 2px solid #7e2a6a;
+}
+
+.alert-category.ferry h4 {
+    color: #178ea8;
+    border-bottom: 2px solid #178ea8;
+}

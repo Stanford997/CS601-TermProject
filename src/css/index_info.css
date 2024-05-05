@@ -1,0 +1,32 @@
+/************************************ info-sections ************************************************/
+/************************************ info-sections ************************************************/
+/************************************ info-sections ************************************************/
+.info-sections {
+    margin: 20px;
+}
+
+.info-sections h2 {
+    font-size: 1.5em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    margin-bottom: 20px;
+}
+
+.info-button {
+    display: inline-block;
+    padding: 10px 20px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.2s, border-color 0.2s;
+}
+
+.info-button:hover {
+    background-color: #f2f2f2;
+    border-color: #888;
+}

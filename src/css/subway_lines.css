@@ -1,0 +1,122 @@
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar svg {
+    width: 24px;
+    height: 24px;
+}
+
+.Lines {
+    max-width: 600px;
+    margin: 20px ;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    grid-gap: 10px;
+    padding: 20px;
+    background: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.line {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background: white;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+}
+
+.line svg {
+    width: 24px;
+    height: 24px;
+}
+
+.line h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.line[data-line="Red"] {
+    border: 2px solid #da291c;
+}
+
+.line[data-line="Orange"] {
+    border: 2px solid #ed8b00;
+}
+
+.line[data-line="Blue"] {
+    border: 2px solid #0033a0;
+}
+
+.line[data-line="Green"] {
+    border: 2px solid #008000;
+}
+
+
+.schedules .red { background-color: #da291c; }
+.schedules .orange { background-color: #ed8b00; }
+
+.two_sections img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+#right_service{
+    background: #e2ecf8;
+    padding: 20px;
+}
+
+#rs_title{
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.news-content a {
+    text-decoration: none;
+    color: #1b5c93;
+}
+
+@media (min-width: 1000px) {
+    #green_b_sections {
+        background-color: #f5f5f5;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .two_sections {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right_section {
+        flex-basis: 100%;
+    }
+
+}
+

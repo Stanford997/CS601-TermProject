@@ -1,0 +1,39 @@
+.Happening {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+}
+
+.News {
+    display: flex;
+    width: 90%;
+    max-width: 1200px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.New {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.New img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+}
+
+.New h3 {
+    font-size: 18px;
+    color: #333;
+}
+
+#Happening {
+    margin-left: 20px;
+}

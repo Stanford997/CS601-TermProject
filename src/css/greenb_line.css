@@ -1,0 +1,174 @@
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #333;
+}
+
+.search-bar input {
+    padding: 10px;
+    width: 70%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar svg {
+    width: 24px;
+    height: 24px;
+}
+
+.station-list {
+    font-family: Arial, sans-serif;
+    width: 90%;
+    margin: 20px auto;
+    background: #ffffff;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    border-radius: 8px;
+}
+
+.station {
+    border-left: 5px solid green;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.station-name {
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+.station-name + .station-name {
+    margin-top: 10px;
+}
+
+.line-icons {
+    font-size: 14px;
+    color: #666;
+    padding: 5px 0;
+}
+
+.departures p {
+    font-size: 16px;
+    color: #444;
+}
+
+.view-link {
+    text-decoration: none;
+    color: #0066cc;
+    font-size: 14px;
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.two_sections img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin-top: 20px;
+}
+
+#right_service{
+    background: #e2ecf8;
+    padding: 20px;
+}
+
+#rs_title{
+    margin-bottom: 30px;
+}
+
+h3{
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.news-content a {
+    text-decoration: none;
+    color: #1b5c93;
+}
+
+/* Button styles */
+.switch-button {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    z-index: 100;
+    display: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+
+.switch-button:hover {
+    background-color: #45a049;
+}
+
+.station-name::before {
+    content: "\2022";
+    margin-right: 5px;
+}
+
+.station-name::after {
+    content: " (Station)";
+    color: #888;
+}
+
+.station-name::first-letter {
+    font-size: 120%;
+    font-weight: bold;
+}
+
+.station-name::first-line {
+    font-style: italic;
+}
+
+.station-name::selection {
+    background-color: #ffff00;
+    color: #000;
+}
+
+.station-name:active {
+    background-color: lightblue;
+}
+
+.station-name:focus {
+    outline: 2px solid orange;
+}
+
+.station:first-child {
+    border-top: 2px solid black;
+}
+
+.station:last-child {
+    border-bottom: 2px solid black;
+}
+
+
+@media (min-width: 1000px) {
+    #green_b_sections {
+        background-color: #f5f5f5;
+        padding: 20px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .two_sections {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .right_section {
+        flex-basis: 30%;
+    }
+
+}
+

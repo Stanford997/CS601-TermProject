@@ -1,0 +1,51 @@
+/************************************ fares ************************************************/
+/************************************ fares ************************************************/
+/************************************ fares ************************************************/
+.fares-section {
+    margin: 0 20px;
+}
+
+.fares-section h2 {
+    margin-bottom: 20px;
+}
+
+.fare-box {
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    vertical-align: top;
+    margin: 10px;
+    box-sizing: border-box;
+    border: 2px solid #000;
+    padding-top: 50px;
+    width: 20%;
+}
+
+.fare-box:hover {
+    background-color: #cfe0f3;
+}
+
+.c-fare-card__icon {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 60px;
+    height: 60px;
+    background: #ffffff;
+    border-radius: 50%;
+    line-height: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c-fare-card__icon svg {
+    width: 100%;
+    height: auto;
+}
+
+.price {
+    font-size: 2em;
+    margin: 10px 0;
+}
